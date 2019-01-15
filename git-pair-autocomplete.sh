@@ -16,5 +16,4 @@ _git_pair_author_names() {
   fi
 }
 
-alias gpair='git-pair'
-complete -F _git_pair_author_names "gpair"
+complete -F _git_pair_author_names "git-pair"
